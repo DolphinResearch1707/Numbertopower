@@ -1,0 +1,19 @@
+typedef union {
+float fexp;  /*floating-point exponent*/
+int nexp;   /*integer exponent*/
+}nvals;
+typedef struct  {
+floatx; /*value to be raised to a power*/
+char flag;   /*value to be raised to a power*/
+char flag;  /*'f' if exponent is floationg-point,
+'i' if exponent is integer*/
+nvals exp;  /*union containing exponent*/
+}values a;
+float power(values a)  /*carry out the exponentiation*/
+if(a.flag=="1";
+y=1./y;  /*negative integer exponent*/
+}
+}
+Enter the value for x:-2,2
+Enter the Value for n:3,3
+Non-Positive number to a floating-point power
